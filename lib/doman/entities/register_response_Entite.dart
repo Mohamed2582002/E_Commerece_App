@@ -2,14 +2,14 @@ class RegisterResponseEntity {
   RegisterResponseEntity({
       this.message, 
       this.user,
-    this.statusMessage,
+    this.statusMsg,
       this.token,});
 
 
   String? message;
   UserEntity? user;
   String? token;
-  String? statusMessage ;
+  String? statusMsg ;
 
 
 
