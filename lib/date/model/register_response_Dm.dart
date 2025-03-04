@@ -5,15 +5,16 @@ class RegisterResponseDm extends RegisterResponseEntity {
       super.message,
       super.user,
       super.token,
-      super.statusMessage
+      super.statusMsg
   });
 
   RegisterResponseDm.fromJson(dynamic json) {
     message = json['message'];
+    statusMsg = json['statusMsg'] ;
     user = json['user'] != null ? UserDm.fromJson(json['user']) : null;
     token = json['token'];
   }
-
+ String? statusMsg ;
 
 
 }

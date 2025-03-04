@@ -5,6 +5,8 @@ import 'package:google_fonts/google_fonts.dart';
 class AppStyles{
   static TextStyle regular12Text = GoogleFonts.poppins(
     fontSize: 12,fontWeight: FontWeight.w400,color: AppColors.primaryDark );
+  static TextStyle regular11SalePrice = GoogleFonts.poppins(
+      fontSize: 12, fontWeight: FontWeight.w400, color: AppColors.primaryDark);
 
   static TextStyle regular14Text = GoogleFonts.poppins(
       fontSize: 14,fontWeight: FontWeight.w400,color: AppColors.primaryDark );
@@ -30,6 +32,8 @@ class AppStyles{
       fontSize: 18,fontWeight: FontWeight.w500,color: AppColors.primaryDark );
   static TextStyle medium18white = GoogleFonts.poppins(
       fontSize: 18,fontWeight: FontWeight.w500,color: AppColors.whiteColor );
+  static TextStyle medium20White = GoogleFonts.poppins(
+      fontSize: 20, fontWeight: FontWeight.w500, color: AppColors.whiteColor);
 
 
 }

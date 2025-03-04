@@ -1,0 +1,2 @@
+E:/Route-Alex3/e_commerece/android/app/.cxx/Debug/4v395a1n/armeabi-v7a/CMakeFiles/edit_cache.dir
+E:/Route-Alex3/e_commerece/android/app/.cxx/Debug/4v395a1n/armeabi-v7a/CMakeFiles/rebuild_cache.dir
